@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal Ahlam - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styling.css"> 
+</head>
+<body>
+    <div class="fixed top-0 right-0 p-6 z-50">
+        <a href="mailto:bilal.ahlam@city.ac.uk" class="text-white text-sm font-semibold px-4 py-2 rounded-lg transition hover:bg-white/10 border border-white/10 backdrop-blur-sm">
+            Contact
+        </a>
+    </div>
+
+    <div class="wavy-bg-container">
+        <canvas id="wavyCanvas"></canvas>
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 relative z-10">
+
+        <section id="hero" class="text-center pt-8 pb-16">
+            <div class="flex justify-center mb-8">
+                <img src="Me.png" 
+                     class="w-32 h-32 rounded-full border-4 border-white/10 shadow-xl object-cover" 
+                     alt="Bilal Ahlam Avatar">
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-bold mt-4">Bilal Ahlam</h1>
+            <h2 class="text-xl sm:text-2xl font-medium mt-2 text-white/90">
+                I do <span class="accent-text">Code & Chill</span> ☕
+            </h2>
+            <p class="mt-4 text-gray-400 max-w-lg mx-auto text-sm sm:text-base">
+                Computer Science student and Software Developer passionate about creating efficient, impactful solutions.
+            </p>
+            <div class="mt-6 flex justify-center">
+                <img src="giphy.gif" alt="Coding Animation" class="w-48 h-48">
+            </div>
+        </section>
+
+        <section id="about-me" class="py-16">
+            <h2 class="text-center text-3xl font-bold tracking-wider mb-10">ABOUT ME</h2>
+            <p class="text-base text-gray-300 leading-relaxed max-w-3xl mx-auto">
+                I am a Computer Science student with a strong interest in software development and problem-solving. I take a structured approach to learning and coding, with a focus on writing clean, scalable, and maintainable code. This includes exploring hypothetical skills and enjoying applying them to real-world challenges that enhance my understanding of modern software engineering practices.
+            </p>
+        </section>
+
+        <section id="experience" class="py-16">
+            <h2 class="text-center text-3xl font-bold tracking-wider mb-10">EXPERIENCE</h2>
+
+            <div class="border-b border-white/10 last:border-b-0 py-6">
+                <div class="flex flex-col sm:flex-row justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold">AVEVA / Software Developer Intern</h3>
+                    <p class="text-sm text-gray-500 mt-1 sm:mt-0">June 2025 - August 2025</p>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">
+                    During my internship at AVEVA, I focused on enhancing the E3D Industrial software suite, focusing on optimizing data queries and reliability. Software involved designing and implementing new features within the platform's core services using C# and SQL, resulting in a 15% reduction in query latency. I contributed to a complete software development lifecycle, from initial design through testing and deployment.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-tag text-xs px-3 py-1 rounded-full">C#</span>
+                    <span class="skill-tag text-xs px-3 py-1 rounded-full">C++</span>
+                    <span class="skill-tag text-xs px-3 py-1 rounded-full">Typescript</span>
+                    <span class="skill-tag text-xs px-3 py-1 rounded-full">Node.js</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-16">
+            <h2 class="text-center text-3xl font-bold tracking-wider mb-10">PROJECTS</h2>
+
+            <div class="border-b border-white/10 last:border-b-0 py-6">
+                <div class="flex flex-col sm:flex-row justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold">F1 Sports Strategy and Analytics Modelling</h3>
+                    <p class="text-sm text-gray-500 mt-1 sm:mt-0">November 2025 - Present</p>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">
+                    A university-level project focused on creating a machine learning feature analytics model to predict and analyze Formula 1 races. The model utilizes deep learning techniques to ingest real-time telemetry data and historical race results, providing strategic insights into pit-stop timing and tire wear. This project involved complex data transformation and visualization using React for the front-end dashboard.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-tag text-xs px-3 py-1 rounded-full">Python</span>
+                    <span class="skill-tag text-xs px-3 py-1 rounded-full">SQL</span>
+                    <span class="skill-tag text-xs px-3 py-1 rounded-full">Machine Learning</span>
+                </div>
+            </div>
+
+            <div class="border-b border-white/10 last:border-b-0 py-6">
+                <div class="flex flex-col sm:flex-row justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold">2D Java Game Engine</h3>
+                    <p class="text-sm text-gray-500 mt-1 sm:mt-0">September 2025 - November 2025</p>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">
+                    Created a 2D game using Java and the Swing library to implement core functionalities such as collision detection, enemy AI, and state management. The project served as a foundational exercise in object-oriented programming (OOP) principles and low-level game loop architecture, demonstrating proficiency in desktop application development.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-tag text-xs px-3 py-1 rounded-full">Java</span>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="text-center pt-12 pb-8 footer-border">
+            <div class="flex justify-center space-x-6 text-gray-400 text-2xl mb-4">
+                
+                <a href="https://github.com/BilalAhlam1" class="hover:text-white transition" aria-label="GitHub">
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.6.111.819-.261.819-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.542-1.375-1.325-1.74-1.325-1.74-1.082-.74.082-.725.082-.725 1.2.084 1.839 1.237 1.839 1.237 1.063 1.838 2.793 1.305 3.476.998.108-.77.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.469-2.381 1.236-3.22-.124-.302-.536-1.517.117-3.179 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.292-1.552 3.3-1.23 3.3-1.23.653 1.662.241 2.877.118 3.179.767.839 1.236 1.91 1.236 3.22 0 4.61-2.801 5.626-5.476 5.923.43.372.823 1.102.823 2.219 0 1.604-.015 2.895-.015 3.284 0 .319.219.693.823.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+                
+                <a href="https://uk.linkedin.com/in/bilal-ahlam-b0468a21a" class="hover:text-white transition" aria-label="LinkedIn">
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764 0-.974.784-1.764 1.75-1.764 1.002 0 1.75.79 1.75 1.764 0 .974-.748 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.256-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                
+                <a href="mailto:bilal.ahlam@city.ac.uk" class="hover:text-white transition" aria-label="Email">
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M22 6c0-1.104-.896-2-2-2h-16c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h16c1.104 0 2-.896 2-2v-12zm-2 0l-8 5-8-5h16zm-16 12v-9.337l7.857 4.885c.189.118.409.176.628.176s.439-.058.628-.176l7.857-4.885v9.337h-16z"/></svg>
+                </a>
+            </div>
+            
+            <p class="text-xs text-gray-600">
+                Designed & Developed by Bilal Ahlam. Inspired by modern minimalist design principles.
+            </p>
+        </footer>
+
+    </div>
+    
+    <script src="animation.js"></script>
+</body>
+</html>
